@@ -48,7 +48,7 @@ struct UploadHandler: MustachePageHandler { // all template handlers must inheri
 		// Grab the fileUploads array and see what's there
 		// If this POST was not multi-part, then this array will be empty
 
-		if let uploads = request.postFileUploads where uploads.count > 0 {
+		if let uploads = request.postFileUploads, uploads.count > 0 {
 			// Create an array of dictionaries which will show what was uploaded
 			// This array will be used in the corresponding mustache template
 			var ary = [[String:Any]]()

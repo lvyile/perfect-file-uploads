@@ -1,78 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Scheme LastUpgradeVersion = "9999" version = "1.3">
-  <BuildAction parallelizeBuildables = "YES" buildImplicitDependencies = "YES">
-    <BuildActionEntries>
-      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
-        <BuildableReference
-          BuildableIdentifier = "primary"
-          BlueprintIdentifier = "______Target_PerfectThread"
-          BuildableName = "PerfectThread.framework"
-          BlueprintName = "PerfectThread"
-          ReferencedContainer = "container:FileUploads.xcodeproj">
-        </BuildableReference>
-      </BuildActionEntry>
-      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
-        <BuildableReference
-          BuildableIdentifier = "primary"
-          BlueprintIdentifier = "______Target_PerfectNet"
-          BuildableName = "PerfectNet.framework"
-          BlueprintName = "PerfectNet"
-          ReferencedContainer = "container:FileUploads.xcodeproj">
-        </BuildableReference>
-      </BuildActionEntry>
-      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
-        <BuildableReference
-          BuildableIdentifier = "primary"
-          BlueprintIdentifier = "______Target_PerfectLib"
-          BuildableName = "PerfectLib.framework"
-          BlueprintName = "PerfectLib"
-          ReferencedContainer = "container:FileUploads.xcodeproj">
-        </BuildableReference>
-      </BuildActionEntry>
-      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
-        <BuildableReference
-          BuildableIdentifier = "primary"
-          BlueprintIdentifier = "______Target_PerfectHTTP"
-          BuildableName = "PerfectHTTP.framework"
-          BlueprintName = "PerfectHTTP"
-          ReferencedContainer = "container:FileUploads.xcodeproj">
-        </BuildableReference>
-      </BuildActionEntry>
-      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
-        <BuildableReference
-          BuildableIdentifier = "primary"
-          BlueprintIdentifier = "______Target_PerfectHTTPServer"
-          BuildableName = "PerfectHTTPServer.framework"
-          BlueprintName = "PerfectHTTPServer"
-          ReferencedContainer = "container:FileUploads.xcodeproj">
-        </BuildableReference>
-      </BuildActionEntry>
-      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
-        <BuildableReference
-          BuildableIdentifier = "primary"
-          BlueprintIdentifier = "______Target_PerfectMustache"
-          BuildableName = "PerfectMustache.framework"
-          BlueprintName = "PerfectMustache"
-          ReferencedContainer = "container:FileUploads.xcodeproj">
-        </BuildableReference>
-      </BuildActionEntry>
-      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
-        <BuildableReference
-          BuildableIdentifier = "primary"
-          BlueprintIdentifier = "______Target_FileUploads"
-          BuildableName = "FileUploads"
-          BlueprintName = "FileUploads"
-          ReferencedContainer = "container:FileUploads.xcodeproj">
-        </BuildableReference>
-      </BuildActionEntry>
-    </BuildActionEntries>
-  </BuildAction>
-  <TestAction
-    buildConfiguration = "Debug"
-    selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-    selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-    shouldUseLaunchSchemeArgsEnv = "YES">
-    <Testables>
-    </Testables>
-  </TestAction>
+<Scheme
+   LastUpgradeVersion = "9999"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_788"
+               BuildableName = "PerfectLib.framework"
+               BlueprintName = "PerfectLib"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_804"
+               BuildableName = "PerfectThread.framework"
+               BlueprintName = "PerfectThread"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_813"
+               BuildableName = "COpenSSL.framework"
+               BlueprintName = "COpenSSL"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1501"
+               BuildableName = "PerfectCrypto.framework"
+               BlueprintName = "PerfectCrypto"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1520"
+               BuildableName = "PerfectNet.framework"
+               BlueprintName = "PerfectNet"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1541"
+               BuildableName = "PerfectHTTP.framework"
+               BlueprintName = "PerfectHTTP"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1566"
+               BuildableName = "CHTTPParser.framework"
+               BlueprintName = "CHTTPParser"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1586"
+               BuildableName = "CZlib.framework"
+               BlueprintName = "CZlib"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1620"
+               BuildableName = "PerfectHTTPServer.framework"
+               BlueprintName = "PerfectHTTPServer"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1650"
+               BuildableName = "PerfectMustache.framework"
+               BlueprintName = "PerfectMustache"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1669"
+               BuildableName = "FileUploads"
+               BlueprintName = "FileUploads"
+               ReferencedContainer = "container:FileUploads.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "OBJ_788"
+            BuildableName = "PerfectLib.framework"
+            BlueprintName = "PerfectLib"
+            ReferencedContainer = "container:FileUploads.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
 </Scheme>
